@@ -1,0 +1,21 @@
+Placeholder for image assets:
+
+1. logo.png - Club logo (black, white, and green design)
+2. hero-1.jpg - Team celebration photo
+3. hero-2.jpg - Stadium crowd photo
+4. hero-3.jpg - Player action shot
+5. about-team.jpg - Team group photo
+6. player1.jpg - Isaac Ouma player photo
+7. player2.jpg - Nicholas Muyoti coach photo
+8. jersey.jpg - Home jersey merchandise
+9. scarf.jpg - Club scarf merchandise
+10. news1.jpg - Championship celebration news photo
+11. news2.jpg - Match preparation news photo
+
+These images should be added to the assets folder for the website to display properly.
+Recommended dimensions:
+- Logo: 500x500px
+- Hero images: 1920x1080px
+- Player photos: 400x500px
+- News images: 800x400px
+- Merchandise: 400x400px

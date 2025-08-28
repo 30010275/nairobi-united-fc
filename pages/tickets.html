@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets - Nairobi United FC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://gornews.co.ke/wp-content/uploads/2025/06/nairobi_unt_logo.png" alt="Nairobi United FC Logo" class="logo">
+                <span class="club-name">Nairobi United FC</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="../index.html#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="../index.html#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="../index.html#team" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="../index.html#fixtures" class="nav-link">Fixtures</a></li>
+                <li class="nav-item"><a href="../index.html#achievements" class="nav-link">Achievements</a></li>
+                <li class="nav-item"><a href="../index.html#news" class="nav-link">News</a></li>
+                <li class="nav-item"><a href="#tickets" class="nav-link">Tickets</a></li>
+                <li class="nav-item"><a href="../index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tickets Section -->
+    <section id="tickets" class="tickets">
+        <div class="container">
+            <h2 class="section-title">Match Tickets</h2>
+            <div class="tickets-content">
+                <div class="tickets-info">
+                    <h3>Upcoming Matches</h3>
+                    <p>Secure your seats for our upcoming home matches at Nairobi United Stadium.</p>
+                    
+                    <div class="match-selection">
+                        <h4>Select Match:</h4>
+                        <select id="match-select" class="form-select">
+                            <option value="">-- Select a match --</option>
+                            <option value="match1">Nairobi United vs Gor Mahia - Aug 30, 2024</option>
+                            <option value="match2">Nairobi United vs AFC Leopards - Sep 7, 2024</option>
+                            <option value="match3">Nairobi United vs Tusker FC - Sep 14, 2024</option>
+                        </select>
+                    </div>
+
+                    <div class="ticket-options">
+                        <div class="ticket-option">
+                            <h4>VIP Seating</h4>
+                            <p class="price">KSh 2,000</p>
+                            <p>Premium seating with best views and amenities</p>
+                            <div class="quantity-selector">
+                                <label>Quantity:</label>
+                                <input type="number" min="0" max="10" value="0" class="quantity-input">
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                        
+                        <div class="ticket-option">
+                            <h4>Regular Seating</h4>
+                            <p class="price">KSh 500</p>
+                            <p>Standard seating with great match view</p>
+                            <div class="quantity-selector">
+                                <label>Quantity:</label>
+                                <input type="number" min="0" max="10" value="0" class="quantity-input">
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cart-section">
+                    <h3>Your Cart</h3>
+                    <div class="cart-items">
+                        <p class="empty-cart">Your cart is empty</p>
+                    </div>
+                    <div class="cart-total">
+                        <h4>Total: KSh 0</h4>
+                        <button class="btn btn-primary" disabled>Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stadium Map Section -->
+    <section class="stadium-map">
+        <div class="container">
+            <h2 class="section-title">Stadium Seating Map</h2>
+            <div class="map-container">
+                <div class="stadium-layout">
+                    <div class="pitch"></div>
+                    <div class="stand vip-stand">
+                        <h4>VIP Stand</h4>
+                        <p>Premium seating area</p>
+                    </div>
+                    <div class="stand regular-stand">
+                        <h4>Regular Stand</h4>
+                        <p>Standard seating area</p>
+                    </div>
+                    <div class="stand north-stand">
+                        <h4>North Stand</h4>
+                        <p>Fan section</p>
+                    </div>
+                    <div class="stand south-stand">
+                        <h4>South Stand</h4>
+                        <p>Family section</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="https://gornews.co.ke/wp-content/uploads/2025/06/nairobi_unt_logo.png" alt="Nairobi United FC Logo" class="footer-logo">
+                    <p>The Rising Giants of Kenyan Football</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html#home">Home</a></li>
+                        <li><a href="../index.html#about">About</a></li>
+                        <li><a href="../index.html#team">Team</a></li>
+                        <li><a href="../index.html#fixtures">Fixtures</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#tickets">Tickets</a></li>
+                        <li><a href="../index.html#tickets">Merchandise</a></li>
+                        <li><a href="../index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nairobi United FC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/tickets.js"></script>
+</body>
+</html>
