@@ -162,3 +162,8 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Ignore TODO files
+TODO.md
+TODO_ENHANCEMENTS.md
+HOME_PAGE_ENHANCEMENTS.md
